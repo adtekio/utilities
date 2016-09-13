@@ -8,6 +8,10 @@ At the moment:
    applications.
 2. Environment handling for various host names.
 
+## Travis
+
+[![Build Status](https://travis-ci.org/adtekio/utilities.svg?branch=master)](https://travis-ci.org/adtekio/utilities)
+
 ## License
 
 Released under the GPLv2.
