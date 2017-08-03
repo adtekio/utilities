@@ -1,3 +1,5 @@
+require 'securerandom'
+
 module AdtekioUtilities
   module Encrypt
     extend self
