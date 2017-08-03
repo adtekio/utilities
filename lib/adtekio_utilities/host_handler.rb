@@ -20,6 +20,7 @@ module AdtekioUtilities
     def set_host_and_url(prefix, host, url)
       self[prefix]["url"]  = url
       self[prefix]["host"] = host
+      self[prefix]["protocol"] = url.split(/:\//).first
     end
 
     def slice_and_dice_host_value(prefix, val)
